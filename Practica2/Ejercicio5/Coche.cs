@@ -31,8 +31,8 @@ namespace Ejercicio5
 
         public bool CargarCombustible(int cargarCombustible)
         {
-            Random r = new Random();
-            CantCombustible+= r.Next(0,cargarCombustible);
+
+            CantCombustible += cargarCombustible;
             return true;
         }
     }
